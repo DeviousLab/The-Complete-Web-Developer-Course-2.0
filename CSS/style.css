@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#topbar {
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+}
+
+#logo {
+    margin-top: 8px;
+    width: 100px;
+    float: left;
+    margin-right: 8px;
+}
+
+.topbar-section {
+    float: left;
+    border-left: 1px solid #cccccc;
+    height: 100%;
+}
