@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Code Player</title>
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            CodePlayer
+        </div>
+        <div id="buttonContainer">
+            <div id="html" class="toggleButton active">HTML</div>
+            <div id="css" class="toggleButton">CSS</div>
+            <div id="js" class="toggleButton">JS</div>
+            <div id="output" class="toggleButton active">Output</div>
+        </div>
+    </div>
+    <div id="bodyContainer">
+        <textarea name="htmlText" class="panel" id="htmlText"><h1>Hello World</h1></textarea>
+        <textarea name="cssText" class="panel hidden" id="cssText">h1 {font-family: sans-serif;}</textarea>
+        <textarea name="jsText" class="panel hidden" id="jsText">console.log(Date.now())</textarea>
+        <iframe id="outputText" class="panel"></iframe>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
