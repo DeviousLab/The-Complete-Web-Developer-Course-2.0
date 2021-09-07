@@ -1,3 +1,7 @@
-const redCircle = document.querySelector('#red-circle').addEventListener(onclick, () => redCircle.style.display = 'none')
-const blueCircle = document.querySelector('#blue-circle').addEventListener(onclick, () => blueCircle.style.display = 'none')
-const greenCircle = document.querySelector('#green-circle').addEventListener(onclick, () => greenCircle.style.display = 'none')
+const redCircle = document.querySelector('#red-circle');
+const blueCircle = document.querySelector('#blue-circle');
+const greenCircle = document.querySelector('#green-circle');
+
+redCircle.addEventListener("click", () => redCircle.style.display = 'none');
+blueCircle.addEventListener("click", () => blueCircle.style.display = 'none');
+greenCircle.addEventListener("click", () => greenCircle.style.display = 'none');
